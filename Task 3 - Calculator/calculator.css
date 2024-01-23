@@ -1,0 +1,45 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .display {
+    padding: 10px;
+    background: #f0f0f0;
+  }
+  
+  input {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .operator {
+    background: #FFA500; /* Orange */
+  }
+  
+  .number {
+    background: #666; /* Dark Gray */
+    color: white;
+  }
+  
+  #equals {
+    background: #008CBA; /* Blue */
+    color: white;
+  }
+  
